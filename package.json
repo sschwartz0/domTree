@@ -1,0 +1,113 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "jqtree",
+        "scope": null,
+        "escapedName": "jqtree",
+        "name": "jqtree",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\users\\scott\\desktop\\codesmith\\Chrome"
+    ]
+  ],
+  "_from": "jqtree@latest",
+  "_id": "jqtree@1.3.6",
+  "_inCache": true,
+  "_location": "/jqtree",
+  "_nodeVersion": "6.7.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/jqtree-1.3.6.tgz_1478338258830_0.9440207604784518"
+  },
+  "_npmUser": {
+    "name": "marcobraak",
+    "email": "henk@example.com"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "jqtree",
+    "scope": null,
+    "escapedName": "jqtree",
+    "name": "jqtree",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jqtree/-/jqtree-1.3.6.tgz",
+  "_shasum": "bb3af75fbef944e9ae339ea196c62da9d94cb042",
+  "_shrinkwrap": null,
+  "_spec": "jqtree",
+  "_where": "C:\\users\\scott\\desktop\\codesmith\\Chrome",
+  "bugs": {
+    "url": "https://github.com/mbraak/jqtree/issues"
+  },
+  "dependencies": {
+    "jquery": ">=1.9"
+  },
+  "description": "Tree widget for jQuery",
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "coffee-script": "^1.11.1",
+    "coffeeify": "^2.0.1",
+    "connect": "^3.5.0",
+    "coveralls": "^2.11.14",
+    "gulp": "^3.9.1",
+    "gulp-coffee": "2.3.2",
+    "gulp-coffeeify": "0.1.8",
+    "gulp-coffeelint": "^0.6.0",
+    "gulp-header": "^1.8.8",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "ie-version": "^0.1.0",
+    "jquery-mockjax": "^2.2.1",
+    "karma": "^1.3.0",
+    "karma-browserify": "^5.1.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-cli": "^1.0.1",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-qunit": "^1.2.1",
+    "phantomjs-prebuilt": "^2.1.13",
+    "qunitjs": "^2.0.1",
+    "serve-static": "^1.11.1",
+    "watchify": "^3.7.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "bb3af75fbef944e9ae339ea196c62da9d94cb042",
+    "tarball": "https://registry.npmjs.org/jqtree/-/jqtree-1.3.6.tgz"
+  },
+  "gitHead": "4f8753e9f0accea21b2e3706d33e580589da1dea",
+  "homepage": "https://github.com/mbraak/jqtree#readme",
+  "keywords": [
+    "jquery-plugin",
+    "tree"
+  ],
+  "license": "Apache-2.0",
+  "main": "lib/tree.jquery.js",
+  "maintainers": [
+    {
+      "name": "marcobraak",
+      "email": "henk@example.com"
+    }
+  ],
+  "name": "jqtree",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbraak/jqtree.git"
+  },
+  "scripts": {
+    "test": "karma start --browsers Chrome --single-run && coffeelint src"
+  },
+  "version": "1.3.6"
+}
